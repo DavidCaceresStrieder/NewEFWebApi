@@ -1,0 +1,9 @@
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\bin\Debug\netcoreapp3.1\DbLayer.deps.json
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\bin\Debug\netcoreapp3.1\DbLayer.dll
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.csprojAssemblyReference.cache
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.AssemblyInfoInputs.cache
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.AssemblyInfo.cs
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.csproj.CoreCompileInputs.cache
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\bin\Debug\netcoreapp3.1\DbLayer.pdb
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.dll
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\DbLayer.pdb
