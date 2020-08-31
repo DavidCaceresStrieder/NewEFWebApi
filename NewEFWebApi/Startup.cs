@@ -29,7 +29,7 @@ namespace NewEFWebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<UnitOfWork>(options => options.UseMySQL(Configuration["ConnectionStrings:DefaultConnection"], provOption => provOption.CommandTimeout(300)));
+            services.AddDbContext<UnitOfWork>(options => options.UseMySQL(Configuration["ConnectionStrings:DefaultConnection"], provOption => provOption.CommandTimeout(300)),ServiceLifetime.Scoped);
 
             DBSuscription.SuscriveModels(services);
         }

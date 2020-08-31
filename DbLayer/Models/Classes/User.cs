@@ -11,7 +11,7 @@ namespace ModelsLayer
     [Table("Users")]
     public class User 
     {
-        [Key]
+        [Key]        
         [Column("UserID")]        
         public int UserID { get; set; }
 

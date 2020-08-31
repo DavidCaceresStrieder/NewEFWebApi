@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using DbLayer.EntityFramework.TransactionService;
+using Microsoft.Extensions.DependencyInjection;
 using ModelsLayer.Models.Promises;
 using ModelsLayer.Models.Resolves;
 using System;
@@ -11,7 +12,11 @@ namespace ModelsLayer
     {
         public static void SuscriveModels(IServiceCollection services)
         {
+            
             services.AddScoped<IUserDB, UserResolution>();
+
+            services.AddScoped<ITransactionService, TransactionService>();
+
         }
     }
 }
