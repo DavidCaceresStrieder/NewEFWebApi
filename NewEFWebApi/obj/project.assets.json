@@ -1922,17 +1922,17 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "DbLayer/1.0.0": {
+      "CoreLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "MySql.Data.EntityFrameworkCore": "8.0.21"
         },
         "compile": {
-          "bin/placeholder/DbLayer.dll": {}
+          "bin/placeholder/CoreLayer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DbLayer.dll": {}
+          "bin/placeholder/CoreLayer.dll": {}
         }
       }
     }
@@ -6632,15 +6632,15 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "DbLayer/1.0.0": {
+    "CoreLayer/1.0.0": {
       "type": "project",
-      "path": "../DbLayer/DbLayer.csproj",
-      "msbuildProject": "../DbLayer/DbLayer.csproj"
+      "path": "../DbLayer/CoreLayer.csproj",
+      "msbuildProject": "../DbLayer/CoreLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DbLayer >= 1.0.0",
+      "CoreLayer >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 3.1.7",
       "MySql.Data.EntityFrameworkCore >= 8.0.21",
       "Newtonsoft.Json >= 12.0.3"
@@ -6672,8 +6672,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "E:\\Proyectos\\NewEFWebApi\\NewEFWebApi\\DbLayer\\DbLayer.csproj": {
-              "projectPath": "E:\\Proyectos\\NewEFWebApi\\NewEFWebApi\\DbLayer\\DbLayer.csproj"
+            "E:\\Proyectos\\NewEFWebApi\\NewEFWebApi\\DbLayer\\CoreLayer.csproj": {
+              "projectPath": "E:\\Proyectos\\NewEFWebApi\\NewEFWebApi\\DbLayer\\CoreLayer.csproj"
             }
           }
         }

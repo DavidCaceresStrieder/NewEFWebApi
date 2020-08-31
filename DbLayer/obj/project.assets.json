@@ -6591,9 +6591,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Proyectos\\NewEFWebApi\\NewEFWebApi\\DbLayer\\DbLayer.csproj",
-      "projectName": "DbLayer",
-      "projectPath": "E:\\Proyectos\\NewEFWebApi\\NewEFWebApi\\DbLayer\\DbLayer.csproj",
+      "projectUniqueName": "E:\\Proyectos\\NewEFWebApi\\NewEFWebApi\\DbLayer\\CoreLayer.csproj",
+      "projectName": "CoreLayer",
+      "projectPath": "E:\\Proyectos\\NewEFWebApi\\NewEFWebApi\\DbLayer\\CoreLayer.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
       "outputPath": "E:\\Proyectos\\NewEFWebApi\\NewEFWebApi\\DbLayer\\obj\\",
       "projectStyle": "PackageReference",

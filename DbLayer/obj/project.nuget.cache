@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jEsmzRJHD8J1rLyI4A6XJ/QeKPeJmJJigj3VJOnZ3Aa6z0ipLpzz5obmINfHatzj3ShVjJZE82aEWyjL5FDj1w==",
+  "dgSpecHash": "X+ZscNpiKNaByO9KM5C4iMxl1ZG4AjhLyaPm5fC/US+OhWxkmDCCe7QR8G9sc/ZqUXXCnGXJgZ5QS1GaE+d2uA==",
   "success": true,
-  "projectFilePath": "E:\\Proyectos\\NewEFWebApi\\NewEFWebApi\\DbLayer\\DbLayer.csproj",
+  "projectFilePath": "E:\\Proyectos\\NewEFWebApi\\NewEFWebApi\\DbLayer\\CoreLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\David\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

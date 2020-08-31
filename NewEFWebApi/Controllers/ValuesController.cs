@@ -19,10 +19,9 @@ namespace DCSCoreFramework.Controllers
         }
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<int> Get()
         {
-            var a = _userDB.Query().Count();
-            return new string[] { "value1", "value2" };
+            return _userDB.Query().Count();            
         }
 
         // GET api/values/5
