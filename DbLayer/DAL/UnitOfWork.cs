@@ -7,7 +7,6 @@ namespace ModelsLayer.DAL
 
         public UnitOfWork(DbContextOptions<UnitOfWork> options) : base(options) { }
 
-
         public DbSet<User> Users { get; set; }        
 
     }

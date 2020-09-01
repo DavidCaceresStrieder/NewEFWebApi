@@ -3,6 +3,6 @@ E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\bin\Debug\netcoreapp3.1\CoreLayer.d
 E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\bin\Debug\netcoreapp3.1\CoreLayer.pdb
 E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\CoreLayer.AssemblyInfoInputs.cache
 E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\CoreLayer.AssemblyInfo.cs
-E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\CoreLayer.csproj.CoreCompileInputs.cache
 E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\CoreLayer.dll
 E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\CoreLayer.pdb
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\CoreLayer.csprojAssemblyReference.cache

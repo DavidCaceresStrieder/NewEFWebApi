@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CoreLayer.Services.Redis;
+using CoreLayer.Services.SMTP;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,6 +33,10 @@ namespace NewEFWebApi
             services.AddControllers();
             services.AddDbContext<UnitOfWork>(options => options.UseMySQL(Configuration["ConnectionStrings:DefaultConnection"], provOption => provOption.CommandTimeout(300)),ServiceLifetime.Scoped);
 
+            services.AddSingleton<IMailingService, MailingService>();
+            services.AddSingleton<IRedisService, RedisService>();
+
+
             DBSuscription.SuscriveModels(services);
         }
 
@@ -43,9 +49,7 @@ namespace NewEFWebApi
             }
 
             app.UseHttpsRedirection();
-
             app.UseRouting();
-
             app.UseAuthorization();
 
             app.Use(async (context, next) =>
