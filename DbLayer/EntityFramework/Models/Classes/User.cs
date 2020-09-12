@@ -1,4 +1,5 @@
-﻿using ModelsLayer.EntityFramework;
+﻿using Microsoft.AspNetCore.Identity;
+using ModelsLayer.EntityFramework;
 using ModelsLayer.Models;
 using System;
 using System.Collections.Generic;

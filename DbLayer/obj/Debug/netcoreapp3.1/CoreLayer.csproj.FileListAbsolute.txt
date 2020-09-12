@@ -1,8 +1,12 @@
 E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\bin\Debug\netcoreapp3.1\CoreLayer.deps.json
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\bin\Debug\netcoreapp3.1\CoreLayer.runtimeconfig.json
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\bin\Debug\netcoreapp3.1\CoreLayer.runtimeconfig.dev.json
 E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\bin\Debug\netcoreapp3.1\CoreLayer.dll
-E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\bin\Debug\netcoreapp3.1\CoreLayer.pdb
 E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\CoreLayer.AssemblyInfoInputs.cache
 E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\CoreLayer.AssemblyInfo.cs
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\CoreLayer.genruntimeconfig.cache
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\bin\Debug\netcoreapp3.1\CoreLayer.pdb
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\CoreLayer.csprojAssemblyReference.cache
+E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\CoreLayer.csproj.CoreCompileInputs.cache
 E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\CoreLayer.dll
 E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\CoreLayer.pdb
-E:\Proyectos\NewEFWebApi\NewEFWebApi\DbLayer\obj\Debug\netcoreapp3.1\CoreLayer.csprojAssemblyReference.cache

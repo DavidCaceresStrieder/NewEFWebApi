@@ -7,6 +7,7 @@ using CoreLayer.Services.SMTP;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -19,7 +20,7 @@ using ModelsLayer.DAL;
 namespace NewEFWebApi
 {
     public class Startup
-    {
+    {        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -31,10 +32,12 @@ namespace NewEFWebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<UnitOfWork>(options => options.UseMySQL(Configuration["ConnectionStrings:DefaultConnection"], provOption => provOption.CommandTimeout(300)),ServiceLifetime.Scoped);
+            services.AddDbContext<UnitOfWork>(options => options.UseMySQL(Configuration["ConnectionStrings:DefaultConnection"], provOption => provOption.CommandTimeout(300)), ServiceLifetime.Scoped);
+            //services.AddAuthorization<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            //            .AddEntityFrameworkStores<UnitOfWork>();
 
             services.AddSingleton<IMailingService, MailingService>();
-            services.AddSingleton<IRedisService, RedisService>();
+            services.AddSingleton<IRedisService, RedisService>();       
 
 
             DBSuscription.SuscriveModels(services);
@@ -50,7 +53,7 @@ namespace NewEFWebApi
 
             app.UseHttpsRedirection();
             app.UseRouting();
-            app.UseAuthorization();
+            //app.UseAuthorization();
 
             app.Use(async (context, next) =>
             {
